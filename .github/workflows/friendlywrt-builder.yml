@@ -58,7 +58,7 @@ jobs:
         sudo -E apt-get -qq autoremove --purge
         sudo -E apt-get -qq clean
         sudo apt install python2
-        rm -rf /usr/bin/python
+        sudo rm -rf /usr/bin/python
         sudo ln -s /usr/bin/python2 /usr/bin/python
         sudo timedatectl set-timezone "$TZ"
         sudo mkdir -p /workdir
