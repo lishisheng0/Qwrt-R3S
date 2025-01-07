@@ -15,3 +15,4 @@
 
 # Add a feed source
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+sed -i '$a src-git kiddin9 https://github.com/lishisheng0/kwrt-packages-xx' feeds.conf.default
